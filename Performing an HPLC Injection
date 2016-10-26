@@ -1,70 +1,59 @@
-erforming an HPLC Injection
-
 Performing an HPLC sample injection protocol
+Created 5/31/07 – Nicholas Zehm
 
-Created 5/31/07 – Nick Zehm
+1. Before beginning; ensure that the Setting up HPLC System for Sample Injection.doc protocol has been followed. This must be done each day the HPLC is to be used.
 
-Updated 7/23/07 – Nick Zehm
+2. Load the HPLC pump program to be used
+    a. For single run should be configured as a single run program as described in Setting up a HPLC Pump Program.doc
 
-    Before beginning; ensure that the Setting up HPLC System for Sample Injection.doc protocol has been followed. This must be done each day the HPLC is to be used.
+    b. For multiple runs should be configured as a multiple run program as described in Setting up a HPLC Pump Program.doc)
 
-    Load the HPLC pump program to be used
+3. Open the program HPLC Sampler Version 4 on desktop (HPLC Sampler Version 4). Note: If the computer does not have labview, use HPLC Sampler.exe
 
-        For single run should be configured as a single run program as described in Setting up a HPLC Pump Program.doc
+4. On the computer a prompt will appear asking for Run Time.
+    a. To allocate computer memory to the program (to ensure no glitches occur), run a short sample of around 10 to 20 seconds.
 
-        For multiple runs should be configured as a multiple run program as described in Setting up a HPLC Pump Program.doc)
+    b. Shut down the program.
 
-    Open the program HPLC Sampler Version 4 on desktop (HPLC Sampler Version 4). Note: If the computer does not have labview, use HPLC Sampler.exe
+    c. Re-open the program.
 
-    On the computer a prompt will appear asking for Run Time.
+    d. Enter the number of seconds the program will run.
 
-        To allocate computer memory to the program (to ensure no glitches occur), run a short sample of around 10 to 20 seconds.
+    e. Data will begin being collected on the computer when the Run button is pressed, regardless of whether the HPLC pump program has been started. Don’t press run until the protocol tells you to.
 
-        Shut down the program.
+5. Once the pump has finished initializing and displays ‘READY’, inject sample by:
+    a. Turning the injection valve to load.
 
-        Re-open the program.
+    b. Fill loop with sample (max = 20 ul)
 
-        Enter the number of seconds the program will run.
+    c. On the computer, press the run button. Turn the injection valve to inject. If program doesn’t run automatically, press the run key.
 
-        Data will begin being collected on the computer when the Run button is pressed, regardless of whether the HPLC pump program has been started. Don’t press run until the protocol tells you to.
+6. Data collection will continue until time runs out or the Quick Stop button is pressed.
+    a. You will be asked whether you wish to save the spreadsheet file and where, save it in the HPLC Graph folder in My Documents.
 
-    Once the pump has finished initializing and displays ‘READY’, inject sample by:
+    b. You will be asked whether you wish to save a picture of the graph, if you choose to, save in the HPLC Graph folder in My Documents.
 
-        Turning the injection valve to load.
+    c. Close the HPLC Sampler program. – Important for single and multiple injections for computer memory reasons.
 
-        Fill loop with sample (max = 20 ul)
+7. If the HPLC pump program doesn’t have a re-equilibration step and/or you are not making multiple runs, make sure the HPLC pump program is stopped when it is completed (press stop key). If not, the program will restart.
 
-        On the computer, press the run button. Turn the injection valve to inject. If program doesn’t run automatically, press the run key.
+8. If doing one run (and the column will not be used the next day) see Storing HPLC column and guard column.doc
 
-    Data collection will continue until time runs out or the Quick Stop button is pressed.
-
-        You will be asked whether you wish to save the spreadsheet file and where, save it in the HPLC Graph folder in My Documents.
-
-        You will be asked whether you wish to save a picture of the graph, if you choose to, save in the HPLC Graph folder in My Documents.
-
-        Close the HPLC Sampler program. – Important for single and multiple injections for computer memory reasons.
-
-    If the HPLC pump program doesn’t have a re-equilibration step and/or you are not making multiple runs, make sure the HPLC pump program is stopped when it is completed (press stop key). If not, the program will restart.
-
-    If doing one run (and the column will not be used the next day) see Storing HPLC column and guard column.doc
-
-    Labview menu should have appeared on the computer:
-
-        If not doing multiple runs, you may load HPLC Analysis Version 6 (HPLC Analysis Version 6) and view the protocol Analyzing HPLC Data.doc (If labview is not on the computer, load HPLC Analysis.exe) or close the menu and
-
-            Shut down computer if it will not be used the next day.
-
-        If doing multiple runs, continue with protocol below.
+9. Labview menu should have appeared on the computer:
+    a. If not doing multiple runs, you may load HPLC Analysis Version 6 (HPLC Analysis Version 6) and view the protocol Analyzing HPLC Data.doc (If labview is not on the computer, load HPLC Analysis.exe) or close the menu and
+        * Shut down computer if it will not be used the next day.
+        
+    b. If doing multiple runs, continue with protocol below.
 
 
 For multiple HPLC runs
 
-10.) Once the re-equilibration step of the HPLC pump program has been completed, the program will restart and initialize. While it is finishing the re-equilibration step and is initializing for the next run:
+10. Once the re-equilibration step of the HPLC pump program has been completed, the program will restart and initialize. While it is finishing the re-equilibration step and is initializing for the next run:
 
-a.) Load HPLC Sampler version 4 from the labview menu, or HPLC Sampler.exe
+    a. Load HPLC Sampler version 4 from the labview menu, or HPLC Sampler.exe
 
-b.) Get the injection sample ready
+    b. Get the injection sample ready
 
-c.) Enter injection time and follow steps 5 through 7
+    c. Enter injection time and follow steps 5 through 7
 
 Note: Each time a HPLC program is run the sampler program must be closed out of and reopened. If not, a memory glitch will occur which will render any data collected any current or future collected data useless.
