@@ -1,0 +1,90 @@
+Created 3/16/07 – Nick Zehm
+
+Setting up a program for the HPLC pump
+
+    Press menu button
+
+    Navigate to files with the arrow buttons and press the enter button
+
+    Select edit
+
+    Press the + or – key to select the program to change
+
+    To change file name:
+
+        Use up and down arrow keys to navigate to file name.
+
+        Use + and – keys to change letter, number in the selected character space
+
+        Use left and right arrow keys to move to the next character space
+
+    To change solvent program, press the enter key with the desired file selected.
+
+        Use up and down arrow keys to select “Solvent Program,” then press the enter key
+
+        Use left and right arrows to navigate between time, %A, %B, and Flow rate
+
+        Use + or – keys to adjust these values and press the enter button to confirm change.
+
+            Program changes through points set in the program with a linear gradient. See example below
+
+
+The program shown in Example 1 will run for 15 minutes. From program start to 6 minutes the %A will gradually change from 10% to 50% with a flow rate of 0.80. As the program run time reaches 12 minutes the %A will have gradually risen to 75% and the flow rate will have gradually risen to 1.00. After 12 minutes the program will gradually increase the %A to 100% and decrease the flow rate to 0.50. When the program has run for 15 minutes it will reach 100% buffer A, a flow rate of 0.50 and will shut down or restart.
+
+Example 1: A solvent program
+Time  %A  %B  Flow
+0     10  90  0.80
+6     50  50  0.80
+12    75  25  1.00
+15    100 0   0.50
+
+
+    Use the program models bellow as a basis for your program
+
+HPLC Pump Program design for Single Run (or bringing a column out of stored solution for sample runs)
+
+*Should provide the desired experimental/purification gradient
+
+*Should end with column be placed in a solvent that the column can be stored with.
+
+*Note that the default program named SHUTDOWN will not restart when finished; instead, this program holds its last solvent concentration. This makes the program useful as a single run program
+
+Example 2: A single run program
+Solvents: A: Acetonitrile. B. ddH2O
+Time  %A  %B  Flow
+0     10  90  0.80    Program Start
+15    90  10  0.80    Sample Run
+20    100 0   1.00    End of Sample Run
+25    100 0   1.00    Clean column
+
+Example 3: A program to recover column from storage solution for sample run(s)
+Time  %A  %B  Flow
+0     100 0   1.00    A column storage solution
+10    10  90  1.00    Solvent Concentration for sample run(s)
+
+
+Example 4: A program to prepare column for storage
+Time  %A  %B  Flow
+0     10  90  1.00  Program Start (an example concentration)
+10    100 0   1.00  Bring Column to storage solution
+20    100 0   1.00  Clean Column
+
+
+HPLC Pump Program design for Multiple Runs
+
+*Should provide the desired experimental/purification gradient
+
+*Should have a re-equilibration step where the solvents are brought to the programs initial concentrations over a gradient
+
+*A separate program will need to be made to bring the solvent concentration one that the column can be stored with.
+
+*The user defined program (currently called SMBNZ) automatically re-initializes after a rung
+
+Example 5: Multiple Sample Run HPLC Pump program
+Solvents: A: Acetonitrile. B. ddH2O
+Time  %A  %B  Flow
+0     10  90  0.80  Program Start
+15    90  10  0.80  Sample Run
+20    100 0   1.00  End of Sample Run
+30    100 0   1.00  Re-equilibration (clean column)
+35    10  90  1.00  Return to start conditions
