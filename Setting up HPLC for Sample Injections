@@ -1,0 +1,68 @@
+ Setting up HPLC for Sample Injections
+
+Made 5/30/07 –Nick Zehm
+
+Updated 7/23/07 – Nick Zehm
+
+
+This protocol must be preformed each day the HPLC is to be used
+
+Note: If column not already attached, see Installing Column For HPLC.doc
+
+Also, the following procedure should be followed before the HPLC pump is turned on
+
+    Filter all HPLC solvents that will be used in protocol
+
+    Place the solvent intake tubes and bubblers (should be attached to a cap) in the solvent containers – make sure the solvent intake is below and away from the bubbler.
+
+    Make sure helium tank is attached to the degasser line
+
+    Open bubbler switches on HPLC pump
+
+    Open helium tank valves, let helium bubble (Bubbling will be continued during at all times when solvent will be pumped through column)
+
+    Get a waste container and place the large tube from the Purge Valve (large black knob on right side of HPLC pump) in the waste container
+
+    While allowing the solvents to bubble with helium for at least 2 min, start computer.
+
+    Open Purge Valve (large black knob on right side of HPLC pump) *Do Not open too much as this would let air into the system
+
+    Turn On the HPLC Pump.
+
+    Press the Purge key on the HPLC pump.
+
+        Adjust the displayed purge program by using arrow keys and + and – keys.
+
+        Purge first with the line containing the HPLC column was not stored in (if column in pure solvent). It is recommended to purge line at about a flow rate of 5ml/min for roughly a minute or until all air/gas bubbles have exited the line.
+
+    Stop Purge
+
+    Press the Purge key on the HPLC pump.
+
+        Adjust the displayed purge program by using arrow keys and + and – keys.
+
+        Purge first with the line containing the HPLC column was stored in(if column in pure solvent). Once again, it is recommended to purge line at about a flow rate of 5ml/min for roughly a minute or until all air/gas bubbles have exited the line.
+
+    Purge lines again with the solvent and solvent concentration the column has been stored in.
+
+    Close Purge valve
+
+    ** If at any point bubbles appear to be moving through the lines, immediately open the purge valve an purge the bubble(s) from the line(s). It is better to redo an injection than to damage a > $1000 column.
+
+    The column will need to be equilibrated.
+
+        If the column is stored in different set of buffers then what you intent to use:
+
+            go to step 1 and follow the steps with the solvent last used
+
+            See Setting up a HPLC Pump Program.doc to gradually change the column solution to a solution you will be using.
+
+            Go to step 10.) b.)
+
+        If column stored in solution you will be using in experiment:
+
+            See Setting up a HPLC Pump Program.doc to gradually change the column solution to a solution you will be using at the start of the experiment.
+
+    Once the column solution has been corrected, press the purge button and purge the column with the initial solvent concentration for 20 min. This equilibrates column
+
+    See Preforming an HPLC sample injection.doc for performing injections
