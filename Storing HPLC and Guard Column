@@ -1,20 +1,19 @@
 Storing HPLC column and guard column
-Created 5/30/07 – Nick Zehm
-Updated 7/24/07 – Nick Zehm
+Created 5/30/07 – Nicholas Zehm
 
-    Follow protocol for Setting up HPLC System for Sample Injection.doc if it has not already been done the current day.
+1. Follow protocol for Setting up HPLC System for Sample Injection.doc if it has not already been done the current day.
 
-    Load a HPLC pump program that will prepare the column for storage (See Setting up a HPLC Pump Program.doc)
+2. Load a HPLC pump program that will prepare the column for storage (See Setting up a HPLC Pump Program.doc)
 
         Check with Dr. Berry to ensure that the solvent that will be used to store the column is safe for the column to be stored in.
 
-    Run the HPLC pump program to prepare the column for storage
+3. Run the HPLC pump program to prepare the column for storage
 
-    When program is completed, press Purge key and use the solvent concentration the column will be stored in.
+4. When program is completed, press Purge key and use the solvent concentration the column will be stored in.
 
-    Remove the connector to the UV from the bottom of the HPLC column while solvent is being pumped.
+5. Remove the connector to the UV from the bottom of the HPLC column while solvent is being pumped.
 
-    While bottom of column is flooded, carefully screw in the column cap and seal it ensuring that No air bubbles enter the column.
+6. While bottom of column is flooded, carefully screw in the column cap and seal it ensuring that No air bubbles enter the column.
 
 
 If Storing Column and Guard Column Individually
