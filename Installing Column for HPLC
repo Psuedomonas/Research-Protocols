@@ -1,0 +1,95 @@
+Installing Column For HPLC
+Created 5/30/07 – Nicholas Zehm
+
+Do Not let air or gas into the HPLC column, this would ruin the column! The HPLC column and the HPLC system are very sensitive and very expensive!
+
+1. Filter HPLC solvents (or solvent, must be the solvent the column was stored in, as well as the same solvent concentration)
+
+2. Place the solvent intake tubes and bubblers (should be attached to a cap) in the solvent containers – make sure the solvent intake is below and away from the bubbler.
+
+3. Make sure helium tank is attached to the degasser line
+
+4. Open bubbler switches on HPLC pump
+
+5. Open helium tank valves, let helium bubble
+
+6. Get a waste container and place the large tube from the Purge Valve (large black knob on right side of HPLC pump) in the waste container
+
+7. Allow the solvent to bubble with helium for 5 min
+
+8. Open Purge Valve (large black knob on right side of HPLC pump) *Do Not open too much as this would let air into the system
+
+9. Press the Purge key on the HPLC pump.
+        Adjust the displayed purge program by using arrow keys and + and – keys.
+            Use solvent type(s) and concentration that the column was stored in; 1.0 is a good flow rate.
+
+10. Large tube attached to the Purge Valve should be eluting solvent into the waste container.
+        Make sure that the Purge Valve is not too open, this allows air to enter the valve.
+        Make sure the valve is no too closed, if closed eluted solution would enter the narrow metal tube to which the column will eventually be attached; this could allow air bubbles to enter the line. Should have a screw-like column connecter at end.
+
+11. Continue purging until all air bubbles have exited the lines and no new ones are forming.
+
+12. Close Purge Valve
+
+13. Allow solvent from the narrow metal tube to be collected in waste container.
+
+14. Make sure all bubbles have left the tube and the rest of the system. Remember: air and gas will ruin a column. HPLC columns usually cost $2000.
+
+15. Find which end of guard column and column is up and which is down.
+      The use of a relatively inexpensive ($500) guard column is strongly advised as these protect the much more expensive columns from being damaged. These are just like the regular columns; they are ruined by gas and air!
+
+16. Open the top cap of the guard column (not bottom!)
+
+17. Let solvent solution being eluted from the metal tube flood the guard column opening.
+
+18. Being extremely careful to prevent bubbles from entering guard column, slowly place the screw-like column connector into the flooded top opening.
+        If bubbles threaten to enter the guard column or column at any time, stop pump immediately. Open purge valve and vent bubbles until none are present.
+            If some bubbles have entered the connecter from the HPLC pump, disconnect guard column and start protocol over at step 9.
+
+    Screw on the guard column until tightly sealed. Once sealed open the bottom of the guard column.
+
+    Allow bottom of guard column to be flooded (droplets should be building up on bottom)
+
+    Stop Purge with stop key
+
+    Press Purge again and increase flow rate to 1.0
+
+    Let droplets cover the top of the guard column – column connector.
+
+    While a large droplet covers the bottom of the guard column and the guard column – column connector has been flooded, attach the guard column – column connector to the bottom of the guard column.
+
+        Make sure the guard column – connector is tightly sealed with the bottom of the guard column.
+
+    Let all air/gas bubbles escape the bottom of the guard column – column connector.
+
+        Unfortunately, their will still likely be air/gas bubbles in the guard column – column connector. Make sure the pressure is high enough to give a flow rate of at least 1.0. (This, along with the flooding of the guard column – column connector top should reduce the probability of bubbles climbing out of the connector and into the guard column; damaging the guard column).
+
+    Once all bubbles have been purged from connector (and rest of system), open the top of the column.
+
+    Allow the connector to flood the opening of the column.
+
+    Slowly place the connector into the column opening, being extremely careful to prevent bubbles from entering the column.
+
+    Tightly seal the connector to the column top.
+
+    Remove the seal at the bottom of column.
+
+    Allow bottom of column to be flooded (droplets should be building up on bottom)
+
+    Let droplets cover the top of the connector to the UV detector.
+
+    While a large droplet covers the bottom of the column and the UV detector connector has been flooded, attach the UV detector connector to the bottom of the column.
+
+        Make sure the UV connector is tightly sealed with the bottom of the column.
+
+    Let all air/gas bubbles escape the UV detector apparatus.
+
+        If bubbles threaten to enter the guard column or column at any time, stop pump immediately. Open purge valve and vent bubbles until none are present.
+
+            If some bubbles have entered the connecter from the HPLC pump, disconnect guard column and column and start protocol over at step 9. (If guard column was not contaminated with air/gas, the guard column and column can remain connected to each other.
+
+            If guard column acquired air/gas bubbles (damaging the guard column) remove the guard column and column separately. Start protocol over at step 9.
+
+35.) The column and guard column need to be equilibrated before use. A HPLC pump program will need to be made to gradually equilibrate the column and guard column from the stored solvent solution to the solution to be used in the experiment. See Setting up a HPLC Pump Program.doc
+
+36.) Before running a program; ensure that all solvents to be used in the program have been filtered, bubbled with helium, and the solvent lines have been purged from bubbles.
