@@ -1,1 +1,178 @@
+Tissue Solubilizing Buffer
+(1) TSB 1
+1.35 g NaCl
+0.4 g Tris-Hcl
+0.15 g EDTA
+dissolve in H2O → expand volume to 100 ml w/dH2O
+pH 7.4 
 
+(2) TSB 2
+1 g SDS
+1 ml Trion X-100
+0.5 g Sodium deoxycholic acid
+100 ul of PIC1
+dissolve in H2O → expand volume to 100 ml w/dH2O
+
+PIC 1
+10 ml saline solution of aprotein
+10 mg leupeptin 1 ug/ml leupeptin
+20 mg antipain 2 ug/ml antipain
+100 mg benzamidine 10 ug/ml benzamidine
+10 ug/ml aprotein
+
+* For PIC 1 use protease inhibitor tablet supplied by Terrance Wilcox
+
+PIC 2
+10 ml DMSO (Dimethyl Sulfoxide)
+10 mg chymostatin
+10 mg pepstain
+sometimes add PMSF (phenylmethylsylfonyl flouride) from 100 mM stock in EtOH to make 1 mM PMSF 
+
+Preparation of Laemmli Buffer
+4x – 10 ml (Morris formulation)
+2.5 ml 1 M Tris-Hcl pH 6.8
+0.5 ml ddH2O
+1.0 g SDS
+0.8 ml 0.1 % Bromophenyl Blue
+4 ml 100 % glycerol
+2 ml 14.3 M β-mercaptoethanol (100%)
+Fill to 10 ml with ddH2O
+
+Biorad Sample Buffer
+950 ul
+50 ul β-mercaptoethanol
+
+Electroblot Transfer Buffer
+3.03 g Tris-base ] in 500 ml
+14.4 g glycine ] dH2O
+200 ml methanol
+Adjust final volume 1L
+
+Membrane Washing Buffer
+10X PBS
+2 g KCl
+80 g NaCl
+2 g KPO
+11 g NaPO dibasic
+in 1 L H2O, pH 7.4
+* Use Dibco 1x PBS, pH 7.52
+Tween-20 added to final [ ] 0.1 %
+1 ml Tween-20 to 1 L PBS → 0.1% PBST
+
+Blocking Buffer
+5 g Dry milk added to 100 ml PBST
+
+Primary Antibody Cocktail
+Anti target antibody
+
+Secondary Antibody Cocktail
+Anti IgG antibody with HRP
+
+
+
+Methods
+Extraction of Lachrymal Tissue
+1. Carefully dissect the tissue to be analyzed and remove all traces of adipose tissue
+
+2. Place approximately 0.1g – 1.0g of tissue into a 100 mm petri dish set on ice. The tissue is then diced into small cubes (approximately 2 mm) using two razor blades sliding in opposite directions to provide scissor action.
+
+3. Tissue cubes are placed into a dounce homogenizer (10ml size) plus 5 ml solubilization buffer. The pestle is then plunged 18-20 times to brake up tissue and cells to form a detergent extract. 
+
+    A typical lachrymal gland from an adult ranges 150-200 mg net weight → plenty of tissue (applicable to Rattus norvigus only)
+    using Mus musculus 
+
+
+Clarify Protein Extracts
+4. The extract is then placed on a rocking platform and mixed for 30 min. Always keep the extract at 4°C by preforming the mixing on ice or placing the rocking platform in the cold room.
+
+5. The mixed extract is then clarified to remove large particulate matter by centrifuge at > 12,000 x g for 20 min followed by filtration through a 0.22 um syringe filter. (or use 400 x g ???)
+
+Quantitate Protein Content with Bradford Assay
+6. The supernatant is quantitated for protein content, diluted to a final concentration of 1-2 mg/ml and stored at -80C until needed for electrophoresis.
+
+    in LN2 (boils at -196C [77K, 321F])
+
+
+SDS Page
+1. Boil Samples for 2-5 min.
+2. Transfer to well
+
+    Use extreme care to control for possible contamination
+
+
+3. Run electrophoresis at 100 V for 75 min
+
+Western Blot
+1. Wet Nitrocellulose paper (45 um) in transfer buffer
+
+2. Remove SDS PAGE gel and place in a separate container
+
+    Wash with transfer buffer
+    Remove excess SDS
+        Soak for 2 min
+        Aspirate
+        Repeat
+
+
+3. Place gel in container w/ nitrocellulose
+
+    sandwich between filter paper
+    use PVDF for hydrophobic proteins ???
+
+4. Place in cassette and place into transfer chamber.
+
+5. Orient sandwich:
+
+    Nitrocellulose (PVDF) paper on anode side (red)
+    gel on cathode side (black)
+
+
+6. Transblot is run @ 100 V for 90 min.
+Antibody Detection
+1. Immediately after blotting membrane separated from sandwich.
+
+2. Protein depleted gel is placed into a solution of Coomassie blue or Ponceau S stain to check transfer efficiency.
+
+3. Wash gel 3x with 5:1:5 solution of Methanol : Acetic Acid : Water
+
+4. Gel should be clear of all proteins
+
+5. Membrane containing transferred proteins is first washed with 50 ml of PBST. 
+
+    (Phosphate Buffered Saline [SDS] + Tween 20 or Triton X-100) 
+    0.1% (v/v) Tween 20 in 1x PBS
+        soak for 30 min
+        repeat 3x
+
+
+6. Washed membrane placed in blocking buffer @ 4°C overnight
+
+    Or about an hour (try 2)
+
+
+7. Aspirate wash with PBST + soak for 30 min.
+
+8. Dilute 1° antibody with blocking buffer 1:1000 20 ul antiserum : 20 ml solution
+
+    - Membrane incubated with 1° for 2hr @RT. 
+
+
+9. 1° antibody removed by aspiration and bound membrane is washed. First 2 washes 30 seconds with PBST. 3Rd wash is 15 min followed by two more washes with 5 min soaking intervals.
+
+    The thorough wash is crucial for giving clean responses and should last @ least 15 min.
+
+
+10. 2° antibody diluted with blocking buffer 1:10000 2 ul : 20 ml solution.
+
+    Bound membrane incubated with 1° antibody for 1 hr @RT
+
+
+11. Membrane placed top of a sheet of plastic (aspertate sheet) and the chemiluminescence reagent mix is added.
+
+    2nd piece of sheeting placed on top and air bubbles are carefully removed by “squeegee' action.
+    Place sandwich into auto-radiography cassette with film. Expose film between 2-30s, for low abundant protein exposure can be extended to 2 min.
+
+
+References:
+
+Clarke, BL. Chapter 13: Isolation of the Melanocortin 5 Receptor. Methods in Molecular Biology, vol 228
